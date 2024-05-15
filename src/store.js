@@ -84,7 +84,7 @@ export default new Store({
     actions:{
         recuperarProfissionais(context,payload){//pode também receber um payload como parâmetro
             payload.forEach(element => {
-                fetch("http://localhost:3000/"+element)
+                fetch("https://db-json-sistema-hospitalar-vue.vercel.app/"+element)
                 .then((resp)=>resp.json())
                 .then(((resp)=>{
                     let dados={tipo:element,dado:resp}
@@ -96,7 +96,7 @@ export default new Store({
         },
 
         recuperarEquipamentos({commit}){
-            fetch("http://localhost:3000/equipamentos")
+            fetch("https://db-json-sistema-hospitalar-vue.vercel.app/equipamentos")
             .then(resp=>resp.json())
             .then((resp)=>{
                 commit("recuperarStateEquipamentos",resp)
