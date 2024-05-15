@@ -1,24 +1,6 @@
-# sistema_hospitalar
+# Sistema hospitalar
+Essa aplicação desenvolvida com Vue.js tem como intuito organizar um sistema hospitalar para montagem de equipes.
+O arquivo db.json que serve essa aplicação está sendo servido pela vercel em um arquivo a parte.
 
-## Project setup
-```
-npm install
-```
+## Link da aplicação: https://system-hospital-vue-22d8.vercel.app/profissionais/enfermeiros
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
